@@ -6,14 +6,14 @@ var startGame = function () {
     score = 0;
     $("#currentScore").text(score);
 
-    targetNum = Math.floor(Math.random() * 100);
+    targetNum = Math.floor(Math.random() * 100+19);
     console.log(targetNum);
     //Display targetNum
     $("#target").text(targetNum);
 
     for(var i = 0; i<$(".crystal-btn").length; i++){
        console.log($("#"+i)) 
-      $("#"+i).val(Math.floor(Math.random() * targetNum));
+      $("#"+i).val(Math.floor(Math.random() * 12+1));
       console.log("value of crystal "+i +": ", $("#"+i).val())       
     }
 
