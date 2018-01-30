@@ -8,6 +8,7 @@ body{
 }
 img{
     margin:auto;
+
 }
 #header{
     background-color: bisque;
@@ -15,12 +16,15 @@ img{
 }
 
 #instructions{
-    background-color: aqua;
+    /* background-color: aqua; */
 
 }
 
 #target{
     background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
 
 }
 #record{
