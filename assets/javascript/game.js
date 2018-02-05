@@ -16,13 +16,9 @@ var startGame = function () {
       $("#"+i).val(Math.floor(Math.random() * 12+1));
       console.log("value of crystal "+i +": ", $("#"+i).val())       
     }
-
     $("#wins").text(wins);
     $("#losses").text(losses);
-
-
 }
-
 
 startGame();
 
