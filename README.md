@@ -4,6 +4,7 @@ Live site: https://laurencantlin.github.io/CrystalCollectorGame/
 
 ## Technologies Used
 Languages - HTML, CSS, Javascript
+
 Libraries - Jquery, Bootstrap v3.3
 
 ## Site Preview
